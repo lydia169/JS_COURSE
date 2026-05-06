@@ -31,16 +31,34 @@
 // }
 // else
 
-function listeElementsUpdated( fruits, nouvelleValeur, i) {
-  
-  if ( i>=0 && i<fruits.length){ 
-    fruits[i] = nouvelleValeur;
-    console.log(fruits);
-  }
+//  let personne = {
+//   nom: "lydia",
+//   age: 25 ,
+//   ville: "Goma",
+       
+// };
+// if (personne.age < 25 && personne.age >= 18) {
+//   console.log(personne.nom  +  "est un etudiant")
+// }
+// else{
+//   console.log(personne.nom + "n'est pas un etudiant");
+// };
 
-else { console.log("Erreur: l'indece doit etre entre 0 et la longueur du tableau");
- }
+let personne = {
+  nom: "lydia",
+  age: 25,
+  ville: "Goma",
+};
+
+let estEtudiant;
+
+if (personne.age >= 18 && personne.age < 25) {
+  estEtudiant = true;
+} else {
+  estEtudiant = false;
 }
- const fruits = ["mangue", "banane", "orange", "pomme", "fraise"];
-listeElementsUpdated(fruits, "avocat", 4);
+
+console.log(estEtudiant);
+
+
 
