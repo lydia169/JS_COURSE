@@ -58,7 +58,7 @@ if (personne.age >= 18 && personne.age < 25) {
   estEtudiant = false;
 }
 
-console.log(estEtudiant);
+console.log(estEtudiant) ;
 
 
 
